@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#root {
+    @apply dark:bg-gray-900;
+}
+
+* {
+    @apply !transition-all !ease-in-out !duration-500;
+}
+
+.card > div {
+    @apply !justify-between;
+}
