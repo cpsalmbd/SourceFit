@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-#root {
-    @apply dark:bg-gray-900;
+body {
+  @apply dark:bg-gray-900;
 }
 
 * {
-    @apply !transition-all !ease-in-out !duration-500;
+  @apply !transition-all !ease-in-out !duration-500;
 }
 
 .card > div {
-    @apply !justify-between;
+  @apply absolute w-full h-fit block bottom-0 bg-gradient-to-b from-transparent to-white items-center dark:to-black/50;
 }
